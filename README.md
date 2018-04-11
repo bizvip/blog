@@ -1,2 +1,3 @@
-# blog
-只是自用的一个日志
+# MarkdownCreator
+MarkdownCreator
+目前主要是用来生成blog。计划添加生成PDF等各种实用文档格式
