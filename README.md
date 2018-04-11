@@ -1,3 +1,2 @@
 # MarkdownCreator
-MarkdownCreator
 目前主要是用来生成blog。计划添加生成PDF等各种实用文档格式
