@@ -21,7 +21,8 @@ final class HttpServer {
         self::$httpServer->start();
     }
     
-    public function onRequest(Request $request, Response $response) {
+    public function onRequest($request, $response) {
+        print_r($response);
     }
     
     public function onWorkerStart() {
