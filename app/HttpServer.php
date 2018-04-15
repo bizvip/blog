@@ -22,7 +22,10 @@ final class HttpServer {
     }
     
     public function onRequest($request, \Swoole\Http\Response $response) {
-        $info = var_export($request);
+        ob_start();
+        var_dump($request);
+        $info = ob_get_contents();
+        ob_end_clean();
         $response->end($info);
     }
     
