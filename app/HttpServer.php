@@ -21,8 +21,9 @@ final class HttpServer {
         self::$httpServer->start();
     }
     
-    public function onRequest($request, $response) {
-        print_r($response);
+    public function onRequest($request, \Swoole\Http\Response $response) {
+        $info = var_export($request);
+        $response->end($info);
     }
     
     public function onWorkerStart() {
