@@ -1,5 +1,7 @@
 <?php declare(strict_types=1);
 
+namespace MarkdownBlogger;
+
 use Swoole\Http\Server;
 
 final class HttpServer {
